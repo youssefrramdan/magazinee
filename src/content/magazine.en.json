@@ -1,0 +1,429 @@
+{
+  "brand": "Behind the Screen",
+  "edition": "THE DIGITAL KINDNESS MAGAZINE",
+  "tagline": "Stop. Think. Be Kind.",
+  "issue": "ISSUE 01",
+  "shelf": "THE READING ROOM",
+  "index": "Contents",
+  "soundOn": "Mute sound",
+  "soundOff": "Unmute sound",
+  "fullscreen": "Toggle fullscreen",
+  "prev": "Previous",
+  "next": "Next",
+  "page": "Page {x} of {n}",
+  "open": "Start reading",
+  "reset": "Reset progress",
+  "close": "Close",
+  "badges": "Your badges",
+  "badgeNames": [
+    "Explorer",
+    "Quiz Master",
+    "Kind Heart",
+    "Pledge Signed"
+  ],
+  "locked": "Locked",
+  "earned": "Earned",
+  "footer": "Small choices. Kinder screens.",
+  "yes": "Yes",
+  "no": "No",
+  "correct": "You got it!",
+  "incorrect": "Good try. Here’s what to look for.",
+  "discovered": "{x}/{n} cards discovered",
+  "check": "Check order",
+  "again": "Keep trying",
+  "sorted": "You've got the steps!",
+  "add": "Post kindness",
+  "placeholder": "Write a kind message…",
+  "tryMessage": "Try a message…",
+  "sign": "Sign the pledge",
+  "signed": "Pledge signed!",
+  "readAgain": "Read again",
+  "score": "{x}/{n} safe choices",
+  "tipLabel": "Get a tip",
+  "tap": "Tap to reveal",
+  "helpline": "Your school can add a local helpline here.",
+  "meterSafe": "Read it once more with the checklist.",
+  "meterPause": "Pause and rewrite that before posting.",
+  "meterEmpty": "Try typing or pick an example.",
+  "rippleButton": "Reveal the next ripple",
+  "rippleDone": "Cyberbullying can hurt, even online.",
+  "moveUp": "Move up",
+  "moveDown": "Move down",
+  "titles": [
+    "No to Cyberbullying",
+    "Contents",
+    "From the editor",
+    "Cyberbullying",
+    "Forms it can take",
+    "The impact",
+    "Did you know?",
+    "Character of the issue",
+    "What we can do",
+    "Back cover"
+  ],
+  "intros": [
+    "A little scrolling. A lot of heart. Discover how your words can make the internet a kinder place.",
+    "Use this page to jump to each section of the issue.",
+    "A message sent in seconds can stay with someone all day.",
+    "Cyberbullying is using messages, games, social media or other digital tools to hurt, threaten or embarrass someone.",
+    "Cyberbullying can happen publicly, in private messages or through a fake account.",
+    "The effects can carry into school, friendships and daily life.",
+    "Your next choice can help stop a hurtful post from spreading.",
+    "Meet Shield Bot, the magazine’s digital-kindness guide.",
+    "Whether it happens to you or you see it happening, small actions can help.",
+    "Every message reaches a real person. Make your next one kind."
+  ],
+  "moods": [
+    "Your kindness sidekick!",
+    "Pick a page to get started.",
+    "Welcome to our first issue!",
+    "Words on a screen can hurt.",
+    "Look out for these signs.",
+    "I’m here with you.",
+    "What you share matters.",
+    "I’m Shield Bot!",
+    "Small steps can help.",
+    "See you next issue!"
+  ],
+  "tips": [
+    "A private check-in can mean a lot.",
+    "Ask before sharing someone’s photo.",
+    "You can ask for help at any time.",
+    "Pause before you hit send."
+  ],
+  "activity": [
+    "",
+    "What’s your next move?",
+    "",
+    "One hurtful message",
+    "Put the steps in order",
+    "Think-O-Meter",
+    "Kindness Wall",
+    "What would you do?",
+    "My kindness pledge",
+    ""
+  ],
+  "coverTitle": [
+    "No to",
+    "Cyberbullying"
+  ],
+  "coverLabel": "THE KINDNESS ISSUE",
+  "coverNote": "Flip through. Speak up.",
+  "coverStart": "An interactive magazine",
+  "quiz": [
+    [
+      "Someone shares a screenshot of your private chat to get laughs. What’s a good first move?",
+      0,
+      "Keep a private copy and report it. Reposting the screenshot can spread it further.",
+      [
+        "Save it privately and report it",
+        "Repost it to defend myself"
+      ]
+    ],
+    [
+      "A friend messages you about being mocked in a group chat. How could you respond?",
+      1,
+      "Listen first and ask what support they want. If the harassment continues or includes threats, encourage them to tell a trusted adult.",
+      [
+        "Tell them to just ignore it",
+        "Check in and ask how I can help"
+      ]
+    ],
+    [
+      "A teammate disagrees with your strategy without insulting you. Is this a bullying report?",
+      0,
+      "Respectful disagreement is normal. You can explain your point or leave the conversation.",
+      [
+        "No, we can disagree respectfully",
+        "Yes, any disagreement is bullying"
+      ]
+    ],
+    [
+      "An account using a classmate’s name and photo sends odd messages. What should you do?",
+      1,
+      "Check with your classmate through a channel you already trust. Report the account if you confirm it’s fake.",
+      [
+        "Ask the account to prove who it is",
+        "Check with my classmate separately"
+      ]
+    ]
+  ],
+  "types": [
+    [
+      "Hurtful messages",
+      "Cruel or threatening texts and DMs.",
+      "Someone keeps sending insults in a game chat."
+    ],
+    [
+      "Mean comments",
+      "Public replies meant to shame someone.",
+      "People mock a classmate under their video."
+    ],
+    [
+      "Sharing private info",
+      "Posting someone’s personal details without permission.",
+      "Someone shares another student’s phone number."
+    ],
+    [
+      "Rumors",
+      "Spreading made-up claims to hurt someone.",
+      "A fake story about a classmate spreads in a group chat."
+    ],
+    [
+      "Social exclusion",
+      "Deliberately leaving someone out to hurt them.",
+      "A group removes one person and posts jokes about it."
+    ],
+    [
+      "Impersonation",
+      "Pretending to be someone else to harm their reputation.",
+      "A fake profile copies a classmate’s name and photo."
+    ],
+    [
+      "Catfishing",
+      "Using a fake identity or stolen photos to deceive someone emotionally.",
+      "A stranger uses stolen photos to build a fake friendship."
+    ],
+    [
+      "Trickery",
+      "Gaining someone’s trust privately, then exposing their secrets.",
+      "A person promises to keep a secret and posts screenshots."
+    ],
+    [
+      "Fraping",
+      "Accessing someone’s social account and posting harmful things as them.",
+      "Someone uses an unlocked account to send cruel posts."
+    ]
+  ],
+  "effects": [
+    [
+      "Emotional",
+      "Sadness, anxiety, stress or lower self-esteem."
+    ],
+    [
+      "Mental health",
+      "Depression, isolation and, in severe cases, suicidal thoughts."
+    ],
+    [
+      "Social",
+      "Pulling away from people, losing trust or feeling lonely."
+    ],
+    [
+      "School",
+      "Harder to focus, stay motivated or keep up with schoolwork."
+    ],
+    [
+      "Long-term",
+      "Confidence and well-being can be affected over time."
+    ]
+  ],
+  "adult": "If you feel overwhelmed, talk to a trusted adult. You’re not alone.",
+  "steps": [
+    "Don’t respond",
+    "Save evidence",
+    "Block and report",
+    "Tell someone"
+  ],
+  "checks": [
+    "Is it kind?",
+    "Is it true?",
+    "Is it helpful?",
+    "Would I say it in person?"
+  ],
+  "examples": [
+    "You did great today!",
+    "NOBODY LIKES YOU",
+    "Want help with that?"
+  ],
+  "flags": [
+    "idiot",
+    "stupid",
+    "hate you",
+    "nobody likes you",
+    "loser",
+    "shut up"
+  ],
+  "wall": [
+    "You made my day!",
+    "I’m glad you’re here.",
+    "That took courage."
+  ],
+  "scenarios": [
+    {
+      "prompt": "Cruel DMs keep showing up after school.",
+      "options": [
+        [
+          "Send an insult back",
+          "That can escalate things and make it harder to step away."
+        ],
+        [
+          "Save them and tell an adult",
+          "You keep a record and get someone on your side."
+        ]
+      ],
+      "good": 1
+    },
+    {
+      "prompt": "A group chat is mocking a friend.",
+      "options": [
+        [
+          "Check in with them privately",
+          "A quiet message can help them feel supported."
+        ],
+        [
+          "Share the screenshots for laughs",
+          "That gives the mockery a bigger audience."
+        ]
+      ],
+      "good": 0
+    },
+    {
+      "prompt": "Someone posts a rumor about you.",
+      "options": [
+        [
+          "Start a rumor back",
+          "Retaliating can spread the harm."
+        ],
+        [
+          "Report the post and take a break",
+          "Reporting creates a record and stepping away gives you breathing room."
+        ]
+      ],
+      "good": 1
+    }
+  ],
+  "pledges": [
+    "Think before I type",
+    "Be kind",
+    "Stand up for others",
+    "Spread positivity"
+  ],
+  "credits": [
+    {
+      "name": "Team member 01",
+      "role": "Writing & research",
+      "avatar": ""
+    },
+    {
+      "name": "Team member 02",
+      "role": "Design & illustration",
+      "avatar": ""
+    },
+    {
+      "name": "Team member 03",
+      "role": "Development",
+      "avatar": ""
+    }
+  ],
+  "school": "School or organization · 2026",
+  "exitFullscreen": "Exit fullscreen",
+  "supervisor": {
+    "label": "Supervised by",
+    "name": "Supervisor name",
+    "avatar": ""
+  },
+  "editorial": [
+    {
+      "blocks": []
+    },
+    {
+      "blocks": [
+        {
+          "heading": "Why we made this issue",
+          "body": "We talk, play and learn online. Those spaces feel better when everyone can take part without being mocked, threatened or left out."
+        },
+        {
+          "heading": "What we’ll cover",
+          "body": "We’ll look at what cyberbullying looks like, why it hurts, and what a student can do when it happens to them or to a friend. Online harm grows when bystanders join in. Staying silent can leave the person feeling alone, while a quiet check-in can show that someone noticed."
+        }
+      ]
+    },
+    {
+      "blocks": [
+        {
+          "heading": "A school group chat",
+          "body": "Imagine a student’s photo being turned into a joke and forwarded between groups. More people see it each time it’s shared, and the student may feel followed by the joke even after school."
+        },
+        {
+          "heading": "Respectful disagreement",
+          "body": "Two classmates can disagree about a game or a school project. Mocking someone, sharing their private messages or encouraging others to pile on is harmful. A single post can still cause repeated harm if it keeps being copied or shared. Take threats seriously and show them to a trusted adult."
+        }
+      ]
+    },
+    {
+      "blocks": [
+        {
+          "heading": "Harassment",
+          "body": "Sending insults or threats, or repeatedly mocking someone in comments."
+        },
+        {
+          "heading": "Rumours and privacy",
+          "body": "Spreading a false story or posting photos, screenshots or personal details without permission to embarrass someone."
+        },
+        {
+          "heading": "Impersonation and exclusion",
+          "body": "Creating a fake profile in someone’s name, or deliberately excluding them from a group to humiliate them. Examples include leaving cruel voice notes after a game, forwarding a private screenshot, or messaging classmates from a fake profile."
+        }
+      ]
+    },
+    {
+      "blocks": [
+        {
+          "heading": "Feelings and friendships",
+          "body": "Someone might feel embarrassed or anxious, stop joining group conversations or find it harder to trust friends."
+        },
+        {
+          "heading": "Learning and rest",
+          "body": "Worry about the next message can make it harder to focus in class or settle down at night."
+        },
+        {
+          "heading": "Support matters",
+          "body": "Listening calmly and helping someone speak to a trusted adult can make it easier for them to ask for help. Students react in different ways. A friend who suddenly goes quiet in a familiar group may need someone to check in privately."
+        }
+      ]
+    },
+    {
+      "blocks": [
+        {
+          "heading": "A screenshot can be evidence",
+          "body": "If it’s safe to do so, save a screenshot privately with the account name and time visible. Show it to a trusted adult or use it to report the post."
+        },
+        {
+          "heading": "A private message can help",
+          "body": "A short message like “I saw what happened. I’m here if you want to talk” can help a classmate feel supported. If the content is upsetting or private, avoid making extra copies. Ask an adult to help you preserve only what’s needed for a report."
+        }
+      ]
+    },
+    {
+      "blocks": [
+        {
+          "heading": "What the shield stands for",
+          "body": "The shield reminds us to protect our own information, ask before sharing someone else’s and look out for people being targeted."
+        },
+        {
+          "heading": "Shield Bot in action",
+          "body": "When a class chat turns hurtful, Shield Bot saves evidence privately, checks in with the person affected and asks a trusted adult for help. Shield Bot’s rule is simple. Ask before sharing, and leave the chat if joining in would make things worse."
+        }
+      ]
+    },
+    {
+      "blocks": [
+        {
+          "heading": "1. Pause",
+          "body": "Step away and avoid replying with insults."
+        },
+        {
+          "heading": "2. Save and report",
+          "body": "Keep evidence privately when safe. Block or mute the account and report the harmful content in the app."
+        },
+        {
+          "heading": "3. Tell someone",
+          "body": "Speak with a trusted adult, such as a parent, teacher or school counsellor. If it happens to a friend, check in privately. If there’s an immediate threat, tell a trusted adult right away. A student shouldn’t have to handle it alone."
+        }
+      ]
+    },
+    {
+      "blocks": []
+    }
+  ]
+}
