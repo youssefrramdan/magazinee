@@ -286,10 +286,15 @@ button:focus-visible,input:focus-visible{outline:3px solid #2257d9;outline-offse
 }
 .back-cover .page-kicker .school-logo + span{margin-inline-start:5px}
 .school-watermark{
-  position:absolute;z-index:-1;inset-block-start:28%;inset-inline-start:10%;
-  width:80%;height:auto;opacity:.075;mix-blend-mode:screen;
-  filter:grayscale(1) invert(1);pointer-events:none;
+  position:absolute;z-index:0;top:50%;left:50%;
+  width:min(62%,360px);height:auto;
+  transform:translate(-50%,-50%);
+  opacity:.07;pointer-events:none;user-select:none;
 }
+.cover .school-watermark{width:min(48%,280px);opacity:.09}
+.back-cover .school-watermark{width:min(58%,320px);opacity:.11}
+.editorial-frame,.interior-footer{position:relative;z-index:1}
+.interior>.mascot{z-index:2}
 
 .brand-mark{width:clamp(34px,4.2vw,57px);height:auto;aspect-ratio:1.18;padding:3px;background:#fff;border:1px solid #d2e0fa;border-radius:9px;box-shadow:0 2px 0 #c4d4ef}
 .brand-mark img{width:100%;height:100%;object-fit:contain}

@@ -62,8 +62,8 @@ export function Interior({ index, active, mood }: { index: number; active: boole
   const number = (index + 1).toLocaleString(lang).padStart(2, lang === 'ar' ? '٠' : '0')
   const isBackCover = index === copy.titles.length - 1
   return <article className={'interior editorial-page interior-' + index + (isBackCover ? ' back-cover' : index === 9 || index === 10 ? ' featured-spread' : '') + (active ? ' active' : '')}>
+    <img className="school-watermark" src={schoolLogo} alt="" aria-hidden="true" width={469} height={332}/>
     <div className="editorial-frame" ref={frameRef}><div className="editorial-content" ref={contentRef}>
-      {isBackCover && <img className="school-watermark" src={schoolLogo} alt="" aria-hidden="true" width={469} height={332}/>}
       <div className="page-kicker"><Sparkles size={15}/>{copy.issue}{isBackCover && <img className="school-logo" src={schoolLogo} alt={copy.school} width={469} height={332}/>}<span>{number}</span></div>
       {isBackCover ? <header className="closing-hero">
         <span className="closing-seal"><ShieldCheck size={28}/></span>

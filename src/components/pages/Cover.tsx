@@ -9,6 +9,7 @@ export function Cover() {
   const { copy } = useLang()
   const { go, react } = useReading()
   return <div className="cover">
+    <img className="school-watermark" src={schoolLogo} alt="" aria-hidden="true" width={469} height={332}/>
     <div className="cover-meta"><div className="cover-identity"><img src={schoolLogo} alt={copy.school} width={469} height={332}/><span>{copy.coverLabel}</span></div><button className="cover-contents" onClick={() => go(1)}><List size={16}/>{copy.index}</button></div>
     <div className="cover-copy">
       <motion.h1 initial={{ opacity: 0, y: 13 }} animate={{ opacity: 1, y: 0 }}><span>{copy.coverTitle[0]}</span><strong>{copy.coverTitle[1]}</strong></motion.h1>
