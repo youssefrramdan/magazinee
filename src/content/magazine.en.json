@@ -1,6 +1,6 @@
 {
-  "brand": "Behind the Screen",
-  "edition": "THE DIGITAL KINDNESS MAGAZINE",
+  "brand": "EJS Shebin El-Kom Magazine",
+  "edition": "ISSUE 01 · BEHIND THE SCREEN",
   "tagline": "Stop. Think. Be Kind.",
   "issue": "ISSUE 01",
   "shelf": "THE READING ROOM",
@@ -60,7 +60,7 @@
     "What we can do",
     "How to support a classmate",
     "Character of the issue",
-    "About Dr. Thanaa",
+    "How schools can address bullying",
     "Back cover"
   ],
   "intros": [
@@ -74,7 +74,7 @@
     "Whether it happens to you or you see it happening, small actions can help.",
     "When bullying happens in a class chat, your response can help.",
     "",
-    "Dr. Thanaa Bahaa Al-Din Abdullah works on psychological guidance and youth awareness at Al-Mustaqbal University in Iraq.",
+    "From Dr. Thanaa Eissa’s school role to practical ways to address bullying.",
     "Every message reaches a real person. Make your next one kind."
   ],
   "moods": [
@@ -88,7 +88,7 @@
     "Small steps can help.",
     "Listen first.",
     "This issue’s featured guest",
-    "Meet our featured guest.",
+    "Support starts with listening.",
     "See you next issue!"
   ],
   "tips": [
@@ -306,38 +306,48 @@
   ],
   "credits": [
     {
-      "name": "Youssef Zakaria",
-      "role": "Student team",
+      "name": "Youssef Farhat",
+      "role": "Authors",
       "avatar": ""
     },
     {
       "name": "Manan Yasser",
-      "role": "Student team",
+      "role": "Authors",
       "avatar": ""
     },
     {
       "name": "Mohamed Yasser",
-      "role": "Student team",
+      "role": "Authors",
       "avatar": ""
     },
     {
       "name": "Yomna Abdel Samad",
-      "role": "Student team",
+      "role": "Authors",
       "avatar": ""
     },
     {
       "name": "Mohamed Adel",
-      "role": "Student team",
+      "role": "Authors",
       "avatar": ""
+    },
+    {
+      "name": "Hamza Saher",
+      "avatar": "",
+      "role": "Authors"
+    },
+    {
+      "name": "Ayyub Abdelhamed",
+      "avatar": "",
+      "role": "Authors"
     }
   ],
-  "school": "School or organization · 2026",
+  "school": "Egyptian Japanese School, Shebin El-Kom",
   "exitFullscreen": "Exit fullscreen",
   "supervisor": {
     "label": "Supervised by",
     "avatar": "",
     "names": [
-      "Mrs. Yosry Ibrahim",
+      "Eng. Yosry Ibrahim",
       "Eng. Karim Gamal"
     ]
   },
@@ -447,16 +457,16 @@
     {
       "blocks": [
         {
-          "heading": "Psychological and educational guidance",
-          "body": "She led an awareness activity as head of the Psychological Counseling and Educational Guidance Unit at Al-Mustaqbal University’s College of Education in Iraq."
+          "heading": "Her role at school",
+          "body": "A Children’s Day report records Dr. Thanaa Eissa taking part as deputy head of the Egyptian Japanese School in Shebin El-Kom, where students presented group performances."
         },
         {
-          "heading": "An article on bullying among teens",
-          "body": "She wrote about how bullying, including cyberbullying, affects teenagers and discussed how schools and families can help prevent it and support students."
+          "heading": "Applying classroom meetings to bullying",
+          "body": "Classroom meetings are part of Tokkatsu in Egyptian Japanese Schools. We suggest discussing a fictional case of mockery in a class chat, then agreeing on how to respond and report it without naming students."
         },
         {
-          "heading": "A talk on violence among peers",
-          "body": "She spoke at an Al-Mustaqbal University event in March 2025 about forms of violence among teenagers, including cyberbullying."
+          "heading": "When it happens for real",
+          "body": "A student can speak privately to a trusted teacher or school counselor. The school can listen, follow up and protect the student’s privacy."
         }
       ]
     },
@@ -464,19 +474,16 @@
       "blocks": []
     }
   ],
-  "featuredPerson": "Dr. Thanaa Bahaa Al-Din Abdullah",
+  "featuredPerson": "Dr. Thanaa Eissa",
   "featuredSources": [
     {
-      "label": "Counseling unit activity",
-      "url": "https://uomus.edu.iq/Department/Details/114985"
+      "label": "Children’s Day report",
+      "url": "https://www.gomhuriaonline.com/Gomhuria/1169923.html"
     },
     {
-      "label": "University article",
-      "url": "https://uomus.edu.iq/Department/Details/80778"
-    },
-    {
-      "label": "University event report",
-      "url": "https://uomus.edu.iq/Department/Details/80256"
+      "label": "JICA: Tokkatsu activities",
+      "url": "https://www.jica.go.jp/english/overseas/egypt/information/topics/2021/211205.html"
     }
-  ]
+  ],
+  "issueTitle": "Behind the Screen"
 }

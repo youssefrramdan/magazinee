@@ -1,6 +1,7 @@
 import { BookOpen, GraduationCap, RotateCcw, ShieldCheck, Sparkles } from 'lucide-react'
 import { useLayoutEffect, useRef } from 'react'
 import portrait from '../../assets/dr-thanaa.jpg'
+import schoolLogo from '../../assets/ej-school-shebin-el-kom.jpg'
 import { useLang } from '../../hooks/useLang'
 import { Mascot, type Mood } from '../mascot/Mascot'
 import { useReading } from './context'
@@ -62,7 +63,8 @@ export function Interior({ index, active, mood }: { index: number; active: boole
   const isBackCover = index === copy.titles.length - 1
   return <article className={'interior editorial-page interior-' + index + (isBackCover ? ' back-cover' : index === 9 || index === 10 ? ' featured-spread' : '') + (active ? ' active' : '')}>
     <div className="editorial-frame" ref={frameRef}><div className="editorial-content" ref={contentRef}>
-      <div className="page-kicker"><Sparkles size={15}/>{copy.issue}<span>{number}</span></div>
+      {isBackCover && <img className="school-watermark" src={schoolLogo} alt="" aria-hidden="true" width={469} height={332}/>}
+      <div className="page-kicker"><Sparkles size={15}/>{copy.issue}{isBackCover && <img className="school-logo" src={schoolLogo} alt={copy.school} width={469} height={332}/>}<span>{number}</span></div>
       {isBackCover ? <header className="closing-hero">
         <span className="closing-seal"><ShieldCheck size={28}/></span>
         <div><h2>{copy.tagline}</h2><p>{copy.intros[index]}</p></div>

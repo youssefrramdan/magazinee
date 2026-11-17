@@ -1,6 +1,7 @@
 import { forwardRef, useEffect, useRef, useState } from 'react'
 import { BookOpen, Minimize, Sparkles, X } from 'lucide-react'
 import { MotionConfig, useReducedMotion } from 'framer-motion'
+import schoolLogo from '../assets/ej-school-shebin-el-kom.jpg'
 import HTMLFlipBook from 'react-pageflip'
 import { useLang } from '../hooks/useLang'
 import { useProgress } from '../hooks/useProgress'
@@ -130,7 +131,7 @@ export function Magazine() {
     <main className="reading-room">
       <div className="room-kicker"><Sparkles size={16}/><span>{copy.shelf}</span><Sparkles size={16}/></div>
       <div ref={stage} className="book-stage" dir="ltr"> 
-        {!narrow && index === 0 && <div aria-hidden="true" className={'cover-halo' + (rtl ? ' cover-halo-rtl' : '')}><Sparkles/><BookOpen/><Sparkles/></div>}
+        {!narrow && index === 0 && <div aria-hidden="true" className={'cover-halo' + (rtl ? ' cover-halo-rtl' : '')}><Sparkles/><img src={schoolLogo} alt="" width={469} height={332}/><Sparkles/></div>}
         <div className="stage-deco stage-left"><BookOpen size={35}/></div><div className="stage-deco stage-right"><Sparkles size={42}/></div>
         <HTMLFlipBook key={lang + String(narrow)} ref={book} className={'book ' + (narrow ? 'book-mobile' : '')} style={{}}
           width={narrow ? 470 : 630} height={745} size="stretch" minWidth={narrow ? 400 : 1} maxWidth={narrow ? 500 : 780} minHeight={1} maxHeight={930}

@@ -1,5 +1,6 @@
 import { ArrowRight, Heart, Laptop, List, ShieldCheck, Smartphone, Sparkles, Star, Wifi } from 'lucide-react'
 import { motion } from 'framer-motion'
+import schoolLogo from '../../assets/ej-school-shebin-el-kom.jpg'
 import { Mascot } from '../mascot/Mascot'
 import { useLang } from '../../hooks/useLang'
 import { useReading } from './context'
@@ -8,10 +9,10 @@ export function Cover() {
   const { copy } = useLang()
   const { go, react } = useReading()
   return <div className="cover">
-    <div className="cover-meta"><span>{copy.coverLabel}</span><button className="cover-contents" onClick={() => go(1)}><List size={16}/>{copy.index}</button></div>
+    <div className="cover-meta"><div className="cover-identity"><img src={schoolLogo} alt={copy.school} width={469} height={332}/><span>{copy.coverLabel}</span></div><button className="cover-contents" onClick={() => go(1)}><List size={16}/>{copy.index}</button></div>
     <div className="cover-copy">
       <motion.h1 initial={{ opacity: 0, y: 13 }} animate={{ opacity: 1, y: 0 }}><span>{copy.coverTitle[0]}</span><strong>{copy.coverTitle[1]}</strong></motion.h1>
-      <div className="cover-subtitle">{copy.brand}</div>
+      <div className="cover-subtitle">{copy.issueTitle}</div>
       <p>{copy.intros[0]}</p>
       <button className="primary cover-start" onClick={() => go(1)}>{copy.open}<ArrowRight size={17}/></button>
     </div>
