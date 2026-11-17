@@ -1,6 +1,6 @@
 # Behind the Screen
 
-A ten-page classroom magazine about cyberbullying, with English and Arabic editions and a printed table of contents.
+A twelve-page classroom magazine about cyberbullying, with English and Arabic editions and a printed table of contents.
 
 ## Run locally
 
@@ -22,7 +22,7 @@ npm run preview
 ## Edit the magazine
 
 - Edit the `editorial` sections in both editions. Each section includes article blocks.
-- Replace each `credits` entry with the team member’s name and role. Leave `avatar` empty for an illustrated placeholder. Update `supervisor.name`, `school`, and `helpline` in both editions.
+- Replace each `credits` entry with the team member’s name and role. Leave `avatar` empty for an illustrated placeholder. Update `supervisor.names`, `school`, and `helpline` in both editions.
 
 
 

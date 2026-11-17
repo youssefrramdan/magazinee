@@ -57,8 +57,10 @@
     "Forms it can take",
     "The impact",
     "Did you know?",
-    "Character of the issue",
     "What we can do",
+    "How to support a classmate",
+    "Character of the issue",
+    "About Dr. Thanaa",
     "Back cover"
   ],
   "intros": [
@@ -69,8 +71,10 @@
     "Cyberbullying can happen publicly, in private messages or through a fake account.",
     "The effects can carry into school, friendships and daily life.",
     "Your next choice can help stop a hurtful post from spreading.",
-    "Meet Shield Bot, the magazine’s digital-kindness guide.",
     "Whether it happens to you or you see it happening, small actions can help.",
+    "When bullying happens in a class chat, your response can help.",
+    "",
+    "Dr. Thanaa Bahaa Al-Din Abdullah works on psychological guidance and youth awareness at Al-Mustaqbal University in Iraq.",
     "Every message reaches a real person. Make your next one kind."
   ],
   "moods": [
@@ -81,8 +85,10 @@
     "Look out for these signs.",
     "I’m here with you.",
     "What you share matters.",
-    "I’m Shield Bot!",
     "Small steps can help.",
+    "Listen first.",
+    "This issue’s featured guest",
+    "Meet our featured guest.",
     "See you next issue!"
   ],
   "tips": [
@@ -300,18 +306,28 @@
   ],
   "credits": [
     {
-      "name": "Team member 01",
-      "role": "Writing & research",
+      "name": "Youssef Zakaria",
+      "role": "Student team",
       "avatar": ""
     },
     {
-      "name": "Team member 02",
-      "role": "Design & illustration",
+      "name": "Manan Yasser",
+      "role": "Student team",
       "avatar": ""
     },
     {
-      "name": "Team member 03",
-      "role": "Development",
+      "name": "Mohamed Yasser",
+      "role": "Student team",
+      "avatar": ""
+    },
+    {
+      "name": "Yomna Abdel Samad",
+      "role": "Student team",
+      "avatar": ""
+    },
+    {
+      "name": "Mohamed Adel",
+      "role": "Student team",
       "avatar": ""
     }
   ],
@@ -319,8 +335,11 @@
   "exitFullscreen": "Exit fullscreen",
   "supervisor": {
     "label": "Supervised by",
-    "name": "Supervisor name",
-    "avatar": ""
+    "avatar": "",
+    "names": [
+      "Mrs. Yosry Ibrahim",
+      "Eng. Karim Gamal"
+    ]
   },
   "editorial": [
     {
@@ -397,18 +416,6 @@
     {
       "blocks": [
         {
-          "heading": "What the shield stands for",
-          "body": "The shield reminds us to protect our own information, ask before sharing someone else’s and look out for people being targeted."
-        },
-        {
-          "heading": "Shield Bot in action",
-          "body": "When a class chat turns hurtful, Shield Bot saves evidence privately, checks in with the person affected and asks a trusted adult for help. Shield Bot’s rule is simple. Ask before sharing, and leave the chat if joining in would make things worse."
-        }
-      ]
-    },
-    {
-      "blocks": [
-        {
           "heading": "1. Pause",
           "body": "Step away and avoid replying with insults."
         },
@@ -423,7 +430,53 @@
       ]
     },
     {
+      "blocks": [
+        {
+          "heading": "Check in privately",
+          "body": "Ask whether they want to talk or would like you to go with them to a teacher they trust."
+        },
+        {
+          "heading": "Stop the spread",
+          "body": "Avoid sharing or reacting to the harmful post, and report it if you can."
+        }
+      ]
+    },
+    {
       "blocks": []
+    },
+    {
+      "blocks": [
+        {
+          "heading": "Psychological and educational guidance",
+          "body": "She led an awareness activity as head of the Psychological Counseling and Educational Guidance Unit at Al-Mustaqbal University’s College of Education in Iraq."
+        },
+        {
+          "heading": "An article on bullying among teens",
+          "body": "She wrote about how bullying, including cyberbullying, affects teenagers and discussed how schools and families can help prevent it and support students."
+        },
+        {
+          "heading": "A talk on violence among peers",
+          "body": "She spoke at an Al-Mustaqbal University event in March 2025 about forms of violence among teenagers, including cyberbullying."
+        }
+      ]
+    },
+    {
+      "blocks": []
+    }
+  ],
+  "featuredPerson": "Dr. Thanaa Bahaa Al-Din Abdullah",
+  "featuredSources": [
+    {
+      "label": "Counseling unit activity",
+      "url": "https://uomus.edu.iq/Department/Details/114985"
+    },
+    {
+      "label": "University article",
+      "url": "https://uomus.edu.iq/Department/Details/80778"
+    },
+    {
+      "label": "University event report",
+      "url": "https://uomus.edu.iq/Department/Details/80256"
     }
   ]
 }

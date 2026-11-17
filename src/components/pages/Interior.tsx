@@ -1,6 +1,6 @@
-import { BookOpen, GraduationCap, RotateCcw, ShieldCheck, Sparkles, Star } from 'lucide-react'
+import { BookOpen, GraduationCap, RotateCcw, ShieldCheck, Sparkles } from 'lucide-react'
 import { useLayoutEffect, useRef } from 'react'
-import { motion } from 'framer-motion'
+import portrait from '../../assets/dr-thanaa.jpg'
 import { useLang } from '../../hooks/useLang'
 import { Mascot, type Mood } from '../mascot/Mascot'
 import { useReading } from './context'
@@ -10,16 +10,17 @@ const moods: Mood[] = ['thinking', 'thinking', 'sad', 'shield', 'thinking', 'hap
 function Credits() {
   const { copy } = useLang()
   const { go } = useReading()
-  return <>
-    <div className="credits">{copy.credits.map(({ name, role, avatar }, i) => <motion.div key={name} initial={{ opacity: 0, x: 10 }} animate={{ opacity: 1, x: 0 }} transition={{ delay: i * 0.12 }}>
-      {avatar ? <img src={avatar} alt=""/> : <span><Star size={18}/></span>}<div><b>{name}</b><small>{role}</small></div>
-    </motion.div>)}</div>
-    <div className="supervisor-card">
-      {copy.supervisor.avatar ? <img src={copy.supervisor.avatar} alt=""/> : <span className="supervisor-icon"><GraduationCap size={24}/></span>}
-      <div><small>{copy.supervisor.label}</small><strong>{copy.supervisor.name}</strong></div>
-    </div>
+  return <div className="closing-credits">
+    <section className="closing-team">
+      <h3><BookOpen size={17}/>{copy.credits[0]?.role}</h3>
+      <ul>{copy.credits.map(({ name }) => <li key={name}>{name}</li>)}</ul>
+    </section>
+    <section className="closing-supervision">
+      <h3><GraduationCap size={19}/>{copy.supervisor.label}</h3>
+      <ul>{copy.supervisor.names.map(name => <li key={name}>{name}</li>)}</ul>
+    </section>
     <div className="credits-actions"><p className="credit-meta">{copy.school}</p><button className="primary" onClick={() => go(0)}><RotateCcw size={16}/>{copy.readAgain}</button></div>
-  </>
+  </div>
 }
 
 function ContentsPage() {
@@ -58,18 +59,26 @@ export function Interior({ index, active, mood }: { index: number; active: boole
   }, [active, index, lang])
 
   const number = (index + 1).toLocaleString(lang).padStart(2, lang === 'ar' ? '٠' : '0')
-  return <article className={'interior editorial-page interior-' + index + (index === 9 ? ' back-cover' : '') + (active ? ' active' : '')}>
+  const isBackCover = index === copy.titles.length - 1
+  return <article className={'interior editorial-page interior-' + index + (isBackCover ? ' back-cover' : index === 9 || index === 10 ? ' featured-spread' : '') + (active ? ' active' : '')}>
     <div className="editorial-frame" ref={frameRef}><div className="editorial-content" ref={contentRef}>
       <div className="page-kicker"><Sparkles size={15}/>{copy.issue}<span>{number}</span></div>
-      <h2>{copy.titles[index]}</h2>
-      <p className="intro">{copy.intros[index]}</p>
+      {isBackCover ? <header className="closing-hero">
+        <span className="closing-seal"><ShieldCheck size={28}/></span>
+        <div><h2>{copy.tagline}</h2><p>{copy.intros[index]}</p></div>
+      </header> : <>
+        <h2>{copy.titles[index]}</h2>
+        {copy.intros[index] && <p className="intro">{copy.intros[index]}</p>}
+      </>}
+      {index === 9 && <figure className="featured-person"><img src={portrait} alt="" width={768} height={1344}/><figcaption>{copy.featuredPerson}</figcaption></figure>}
       {index === 1 && <ContentsPage/>}
-      {section.blocks.length > 0 && <div className="editorial-blocks">{section.blocks.map(({ heading, body }) => <section key={heading}>
+      {section.blocks.length > 0 && <div className="editorial-blocks">{section.blocks.map(({ heading, body }, i) => <section key={heading}>
         <h3>{heading}</h3><p>{body}</p>
+        {index === 10 && copy.featuredSources[i] && <a className="profile-source" href={copy.featuredSources[i].url} target="_blank" rel="noreferrer">{copy.featuredSources[i].label}</a>}
       </section>)}</div>}
-      {index === 9 && <><ShieldCheck className="back-cover-seal" size={42}/><Credits/></>}
+      {isBackCover && <Credits/>}
     </div></div>
-    <Mascot size={index === 7 ? 126 : 88} mood={mood ?? moods[index - 1]} line={copy.moods[index]} onTap={() => react()}/>
+    <Mascot size={88} mood={mood ?? (index === copy.titles.length - 1 ? 'wave' : moods[index - 1])} line={copy.moods[index]} onTap={() => react()}/>
     <div className="interior-footer"><b>{copy.tagline}</b><span>{number}</span></div>
   </article>
 }
